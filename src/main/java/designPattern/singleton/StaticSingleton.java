@@ -6,7 +6,7 @@ public class StaticSingleton {
 		
 	}
 	
-	private static StaticSingleton instance = new StaticSingleton();
+	private static final StaticSingleton instance = new StaticSingleton();
 	
 	public static StaticSingleton getInstance() {
 		return StaticSingleton.instance;
